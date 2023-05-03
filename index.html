@@ -1,13 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Mulish:ital,wght@0,200;0,400;0,700;1,300&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              heart: "url('./assets/play.png')",
+            },
+            colors: {
+              "black-blur": "rgba(255,255,255,0.6)",
+            },
+            fontFamily: {
+              highlight: ["Press\\ Start\\ 2P", "cursive"],
+              title: ["Audiowide", "cursive"],
+              body: ["Mulish", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
     <title>Nattapong C.</title>
-</head>
-<body>
-    <p>I'm boss</p>
-</body>
+  </head>
+  <body>
+    <section id="home-welcome" class="relative">
+      <div class="lg:flex lg:flex-row lg:h-screen">
+        <div class="xl:basis-4/5 lg:basis-2/3 lg:bg-black">
+          <div
+            class="container mx-auto max-sm:py-5 max-sm:px-5 pt-10 lg:grid lg:grid-cols-2 lg:gap-10 lg:absolute lg:inset-x-10 lg:inset-y-12"
+          >
+            <div class="max-sm:mb-8">
+              <img
+                class="w-full max-md:aspect-square"
+                src="./assets/image-asset.jpeg"
+              />
+            </div>
+            <div>
+              <div class="pt-20">
+                <h2
+                  class="text-8xl max-md:text-6xl font-bold font-title text-center"
+                >
+                  Welcome
+                </h2>
+              </div>
+              <div class="lg:px-10">
+                <p class="tracking-wide">
+                  Enim eu adipiscing sint fugiat sint exercitation amet officia
+                  cillum sunt et pariatur irure. Nulla deserunt proident nisi
+                  aliquip est non anim id officia labore occaecat proident
+                  exercitation veniam officia adipiscing quis officia amet.
+                  Cupidatat aliqua proident minim irure ad esse commodo minim et
+                  minim lorem sint sit
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-4 mr-4 max-lg:hidden">
+          <ul class="float-right grid grid-cols-3 gap-x-4">
+            <li>
+              <a href="https://github.com/nattapong-c" target="_blank"
+                ><img class="h-6" src="./assets/github.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://bhijack.medium.com/" target="_blank"
+                ><img class="h-6" src="./assets/medium.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/nattapong-c" target="_blank"
+                ><img class="h-6" src="./assets/instagram.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="home-hobby">
+      <div class="container max-w-none">
+        <div
+          class="w-full bg-heart bg-contain bg-no-repeat bg-center bg-fixed h-96 max-sm:h-64 flex items-center justify-center bg-blend-lighten bg-black-blur"
+        >
+          <h3 class="text-5xl text-center">Game is everything</h3>
+        </div>
+      </div>
+    </section>
+    <section id="home-skill">
+      <div class="lg:flex lg:relative">
+        <div class="xl:basis-4/5 lg:basis-2/3">
+          <div class="lg:grid lg:grid-cols-3 lg:gap-x-10 lg:absolute px-32">
+            <div>
+              <img class="w-full aspect-square" src="./assets/Home5.png" />
+              <p class="text-center">test</p>
+            </div>
+            <div class="lg:mt-40 max-lg:mt-16">
+              <img class="w-full aspect-square" src="./assets/Home5.png" />
+              <p class="text-center">test</p>
+            </div>
+            <div class="lg:mt-80 max-lg:mt-16">
+              <img class="w-full aspect-square" src="./assets/Home5.png" />
+              <p class="text-center">test</p>
+            </div>
+          </div>
+        </div>
+        <div class="xl:basis-1/5 lg:basis-1/3 lg:bg-black lg:h-screen"></div>
+      </div>
+    </section>
+    <section id="home-game">
+      <div>
+        Enim eu adipiscing sint fugiat sint exercitation amet officia cillum
+        sunt et pariatur irure. Nulla deserunt proident nisi aliquip est non
+        anim id officia labore occaecat proident exercitation veniam officia
+        adipiscing quis officia amet. Cupidatat aliqua proident minim irure ad
+        esse commodo minim et minim lorem sint sit Enim eu adipiscing sint
+        fugiat sint exercitation amet officia cillum sunt et pariatur irure.
+        Nulla deserunt proident nisi aliquip est non anim id officia labore
+        occaecat proident exercitation veniam officia adipiscing quis officia
+        amet. Cupidatat aliqua proident minim irure ad esse commodo minim et
+        minim lorem sint sit Enim eu adipiscing sint fugiat sint exercitation
+        amet officia cillum sunt et pariatur irure. Nulla deserunt proident nisi
+        aliquip est non anim id officia labore occaecat proident exercitation
+        veniam officia adipiscing quis officia amet. Cupidatat aliqua proident
+        minim irure ad esse commodo minim et minim lorem sint sit Enim eu
+        adipiscing sint fugiat sint exercitation amet officia cillum sunt et
+        pariatur irure. Nulla deserunt proident nisi aliquip est non anim id
+        officia labore occaecat proident exercitation veniam officia adipiscing
+        quis officia amet. Cupidatat aliqua proident minim irure ad esse commodo
+        minim et minim lorem sint sit
+      </div>
+    </section>
+    <section id="home-footer">
+      <div class="w-full bg-black">testtstst</div>
+    </section>
+  </body>
 </html>
